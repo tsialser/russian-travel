@@ -1,0 +1,12 @@
+.place {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: 152px 1fr;
+
+    padding-top: 80px;
+}
+
+.place:first-child {
+    padding-top: 0;
+}
