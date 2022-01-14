@@ -1,9 +1,26 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 28px 0 56px;
-    max-width: 1184px;
-    min-width: 288px;
-    height: 52px;
-    margin: 0 auto;
+    padding: 0 48px 56px;
+}
+
+@media (max-width : 1024px) {
+    .header {
+        padding-bottom: 48px;
+    }
+}
+
+@media (max-width : 768px) {
+    .header {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (max-width : 320px) {
+    .header {
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }

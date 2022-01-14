@@ -1,12 +1,15 @@
 .header__lang-link {
     margin: 0;
-    font-family: "Inter";
     font-style: normal;
     font-size: 24px;
-    line-height: 28px;
-    width: 30px;
-    height: 28px;
-    color: white;
+    line-height: 117%;
     text-decoration: none;
-    padding-left: 18px;
+    color: #FFFFFF;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 111%;
+    }
 }
