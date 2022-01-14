@@ -1,6 +1,6 @@
 .cover__link {
     position: relative;
-    margin: auto;  
+    margin: auto;
   
     max-width: 1184px;
     min-height: 740px;
@@ -38,4 +38,10 @@
 
   .cover__link:hover::before {
     opacity: 0.8;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .cover__link {
+     min-height: 640px;
+    }
   }
