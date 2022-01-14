@@ -7,9 +7,3 @@
     color: #FFFFFF;
 }
 
-@media (min-width: 320px) and (max-width: 767px){
-    .header__lang-link {
-        font-size: 18px;
-        line-height: 111%;
-    }
-}
