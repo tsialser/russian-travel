@@ -34,6 +34,7 @@
     right: 0;
 
     opacity: 0.3;
+    transition: 0.7s linear;
   }
 
   .cover__link:hover::before {
